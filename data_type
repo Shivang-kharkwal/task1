@@ -1,0 +1,5 @@
+str1 = "Welcome to python"
+if (str1[8:10:1] == 'to'):
+  print('present')
+else:
+  print('not present')
