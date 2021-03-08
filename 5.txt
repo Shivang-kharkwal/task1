@@ -1,0 +1,16 @@
+dict1 = { 
+   "april_batch":{ 
+      "student":{ 
+         "name":"Mike",
+         "marks":{ 
+            "python":80,
+            "maths":70
+         }
+      }
+   }
+}
+name=dict1[ "april_batch"]["student"]["name"]
+pymarks=dict1[ "april_batch"]["student"]["marks"]["python"]
+dict1[ "april_batch"]["student"]["name"]="your name"
+dict1[ "april_batch"]["student"]["marks"]["ML"]=80
+dict1[ "april_batch"]["student"]["marks"]["DL"]=80

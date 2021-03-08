@@ -1,0 +1,15 @@
+num1= int(input('number 1'))
+num2= int(input('number 2'))
+x= int(input('1 for addition
+	      2 for substraction
+		3 for multiplication
+		4 for division'))
+if (x==1):
+	y=num1 + num2
+elif (x==2):
+	y=num1 - num2
+elif (x==3):
+	y=num1 * num2
+else (x==4):
+	y=num1 / num2
+print(y)

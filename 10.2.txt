@@ -1,0 +1,9 @@
+a=(a,b,c,d,e)
+b={1,2,3,a,b}
+c={'key1':'value1' , 'key2':'value2'}
+for x in a:
+	print(x)
+for y in b:
+	print(y)
+for z in c:
+	print(z)
